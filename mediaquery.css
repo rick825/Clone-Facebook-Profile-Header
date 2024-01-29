@@ -1,0 +1,73 @@
+@media only screen and (max-width:650px){
+    .navmid{
+        display: none;
+    }
+
+    .navleft .navsearch input{
+        display: none;
+    }
+
+    .main-cont{
+        width: 100%;
+    }
+
+    .main-cont .main-cover{
+        height: 26rem;
+        border-radius: 0;
+    }
+
+    .main-cover .cover-button{
+        bottom:10%;
+        right:2%;
+    }
+
+    .main-cover .cover-button span{
+        display: none;
+    }
+
+
+    .profile-user-info{
+        flex-direction: column;
+      justify-content: center;
+      margin-top: -12rem;
+      padding: 0 1rem;
+      padding-bottom: 2rem;
+      /* align-items: center; */
+    }
+
+    
+    .profile-user-info .profile-user-personal{
+        flex-direction: column;
+        justify-content: center;
+        gap:1rem;
+    }
+
+    .profile-user-info .profile-user-personal .profile-user-name{
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .profile-user-button{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:0rem;
+    }
+
+    
+.profile-user-button .buttons{
+    margin-top: 3rem;
+    left:0%;
+}
+
+.main-nav{
+    width: 93%;
+    margin: 0.5rem 1rem;
+}
+
+.main-nav-list .navitem:nth-child(3),.main-nav-list .navitem:nth-child(4),.main-nav-list .navitem:nth-child(5),.main-nav-list .navitem:nth-child(6){
+    display: none;
+}
+
+
+}
